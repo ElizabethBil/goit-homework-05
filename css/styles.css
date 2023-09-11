@@ -692,17 +692,17 @@ main {
   z-index: 9999999999999999;
   background: linear-gradient(rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4));
 
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 150ms ease-in-out, visibility 150ms ease-in-out, pointer-events 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out, visibility 150ms ease-in-out, pointer-events 150ms ease-in-out; */
 }
 
-.backdrop.is-open {
+/* .backdrop.is-open {
   opacity: 1;
     visibility: visible;
     pointer-events: auto;
-}
+} */
 
 .modal-container {
   position: absolute;

@@ -626,6 +626,11 @@ main {
   display: flex;
   background-color: transparent;
   align-items: center;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
   justify-content: center;
   border-radius: 4px;
   border: 1px solid var(--WHITE, #fff);
@@ -636,10 +641,9 @@ main {
 .footer-email-form-input::placeholder {
   width: 36px;
   height: 24px;
-  color: var(--WHITE, #fff);
+  color: #ffffff;
   font-family: Roboto;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.04em;

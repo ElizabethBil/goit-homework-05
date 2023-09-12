@@ -742,15 +742,13 @@ main {
 .close-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #fff;
 }
 
 .close-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn-icon:hover, .close-btn-icon:focus {
-  fill: #fff;
-}
 
 
 .modal-name-text {
@@ -814,7 +812,7 @@ outline: transparent;
  }
 
 .contacts-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
  .contacts-comment {
@@ -863,7 +861,7 @@ outline: transparent;
   position: relative;
  }
 
- .contacts-form-checkbox {
+ .visually-hidden {
   position: absolute;
   opacity: 0;
     visibility: hidden;

@@ -670,9 +670,8 @@
 
       <!-- BACKDROP AND MODAL WINDOW -->
 
-      <!--  is-open -->
-      <div class="backdrop">
-        <form class="modal-container">
+      <div class="backdrop is-open">
+        <o class="modal-container">
           <button class="close-btn">
             <svg
               class="close-btn-icon"
@@ -688,6 +687,7 @@
             Leave your contacts and we will call you back
           </p>
 
+          <form class="contacts-form-wrapper">
           <div class="contacts-field-wrapper">
             <label class="modal-label" for="user-name">Name</label>
 
@@ -780,29 +780,19 @@
             <label class="contacts-checkbox-label" for="contacts-form-checkbox">
               <span class="contacts-form-own-checkbox">
                 <svg
-                  class="contacts-form-own-checkbox-icon-default"
-                  width="16"
-                  height="16"
+                  class="contacts-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
                 >
-                  <use href="./images/icons.svg#icon-property-default"></use>
+                  <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg>
-              </span>
-              <span class="contacts-form-own-checkbox">
-                <svg
-                  class="contacts-form-own-checkbox-icon-checked"
-                  width="16"
-                  height="16"
-                >
-                  <use href="./images/icons.svg#icon-property"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a href="" class="user-privacy">Privacy Policy</a></label
-            >
+              </span>I accept the terms and conditions of the
+              <a href="" class="user-privacy">Privacy Policy</a></label>
           </div>
 
           <button class="modal-submit-button" type="submit">Send</button>
         </form>
+        </div>
       </div>
     </div>
   </body>

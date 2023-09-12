@@ -815,6 +815,10 @@ outline: transparent;
   margin-bottom: 8px;
 }
 
+.contacts-field-wrapper-user-comment {
+  margin-bottom: 16px;
+}
+
  .contacts-comment {
   resize: none;
   display: block;
@@ -893,8 +897,8 @@ outline: transparent;
  }
 
  
-.contacts-form-checkbox:checked + .contacts-checkbox-label > .contacts-form-own-checkbox {
-  background-color: #404BBF;
+.visually-hidden:checked + .contacts-checkbox-label > .contacts-form-own-checkbox {
+  background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
 }
